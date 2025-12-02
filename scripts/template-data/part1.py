@@ -3,9 +3,9 @@ import fileinput
 import time
 
 if len(sys.argv) >=2:
-  fileName = sys.argv[1]
+    fileName = sys.argv[1]
 else:
-  fileName = "input"
+    fileName = "input"
 
 
 startTime = time.time()
